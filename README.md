@@ -6,8 +6,8 @@ To run the flatten function and associated tests:
 - Run `npm install`
 - Open `index.html` file in browser
 
-function flatten(array){
-  var arrayCopy = array;
+\n function flatten(array){
+  \n var arrayCopy = array;
   var result = [];
   function recurse(arr){
     for(var i = 0; i < arr.length; i++){
