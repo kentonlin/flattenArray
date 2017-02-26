@@ -12,4 +12,8 @@ describe('flatten', function() {
     var notArray = 1;
     expect(flatten(notArray)).to.eql([]);
   });
+  it('will return an array of strings and objects', function(){
+    var nestedArray = ["hello", [[{"hello":"hi"}]], ["hey","hi","hello"], "hey"];
+    expect(flatten(nestedArray)).to.eql(["hello", {"hello":"hi"}, "hey", "hi", "hello", "hey"]);
+  })
 });

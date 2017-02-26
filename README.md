@@ -29,3 +29,5 @@ To run the flatten function and associated tests:
   &nbsp;&nbsp;&nbsp;&nbsp;*return the result array*               
   &nbsp;&nbsp;&nbsp;&nbsp;**return result;**          
 **};**           
+TIME COMPLEXITY: O(n)       
+The function will return an empty array if an array is not supplied as the parameter      
