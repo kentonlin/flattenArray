@@ -7,8 +7,8 @@ To run the flatten function and associated tests:
 - Open `index.html` file in browser
 
 **function flatten(array){**      
-  *arrayCopy will create a copy of the array argument*       
-  **var arrayCopy = array;**            
+  &nbsp;&nbsp;*arrayCopy will create a copy of the array argument*       
+  &nbsp;&nbsp;&nbsp;&nbsp;**var arrayCopy = array;**            
   *result array will be returned*         
   **var result = [];**             
   *recurse function will call itself recursively*          
